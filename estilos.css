@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: azure;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+   
+}
+button {
+    background-color: yellowgreen;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.botonera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+}
+
+#datos_alumno {
+    background-color: #33B5FF;
+}
+#datos_pares {
+    background-color: #33E8FF;
+}
+.salida {
+   padding: 15px;
+   margin: 10px;
+   background-color: aliceblue;
+   width: 0px auto;
+   height: 0px auto;
+   float: left;
+   border-radius: 5px;
+
+}
+.resultados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h5 {
+    text-align: center;
+    font-size: 1.15em;
+}
